@@ -25,11 +25,15 @@ header{
 
 h1{
     text-align: center;
-    font-size: 700%;
+    font-size: 900%;
     font-weight: bolder;
 }
 
 nav{ 
+    position: sticky;
+    top: -15px;
+    background-color: white;
+    z-index: 2;
 
 }
 
@@ -38,9 +42,6 @@ nav ul {
     text-align: center;
     border-top:solid 1px #777;
     border-bottom: solid 1px #777;
-    opacity: 50%;
-   
-
 }
 nav ul li{
     text-align: center;
@@ -48,12 +49,14 @@ nav ul li{
     display: inline-block;
     padding: 1%;
     font-size: 250%;
+    
 }
 
 a{
     text-decoration: none;
 
 }
+
 .article-main{
     font-family: Roboto Slab;
     color: black;
@@ -98,6 +101,7 @@ main p{
     color: black;
     opacity: 85%;
     font-size: 175%;
+    display: block;
 
 }
 
